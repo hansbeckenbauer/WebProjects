@@ -1,0 +1,24 @@
+<main>
+    <h1>Contact Us</h1>
+    <form id="email-form" name="email-form" action="email.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" maxlength="64" placeholder="Your Name"><br>
+        
+        <label for="email">Your Email:</label>
+        <input type="text" id="email" name="email" maxlength="64" placeholder="your@example.com"><br>
+        
+        <label for="email-confirm">Re-enter Email:</label>
+        <input type="text" id="email-confirm" name="email-confirm" maxlength="64" placeholder="Confirm your email"><br>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" maxlength="64" placeholder="Subject"><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" maxlength="1000" placeholder="Your message"></textarea><br>
+        
+        <div id="msg" style="color: red;"></div><br>
+        
+        <button type="submit" id="sendBtn">Send</button>
+        <button type="button" id="clearBtn">Clear</button>
+    </form>
+</main>
