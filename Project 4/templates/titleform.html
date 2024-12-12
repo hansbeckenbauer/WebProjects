@@ -1,6 +1,6 @@
 <main>
     <h1>Create Your Unique Title</h1>
-    <form id="titleForm" action="processtitle.php" method="post">
+    <form action="processtitle.php" method="post">
         <label for="title">Title:</label>
         <input type="text" id="title" name="title" maxlength="64" placeholder="e.g., Dr., Lord"><br>
         <label for="drink">Favorite Drink:</label>
@@ -11,10 +11,6 @@
         <input type="text" id="fictional" name="fictional" maxlength="64" placeholder="e.g., Hogwarts"><br>
         <label for="real">Favorite Real Place:</label>
         <input type="text" id="real" name="real" maxlength="64" placeholder="e.g., Paris"><br>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" maxlength="64" placeholder="e.g., you@example.com"><br><br>
-        <div id="msg" style="color: red;"></div><br>
-        <button type="submit" id="submitBtn">Submit</button>
-        <button type="button" id="clearBtn">Clear</button>
+        <button type="submit">Submit</button>
     </form>
 </main>
